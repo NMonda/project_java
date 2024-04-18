@@ -1,0 +1,23 @@
+Roses are red!
+ Violets are blue!
+ lalala! x2(a poem by Monda!)
+
+ /* import java.io.FileWriter;
+ import java.io.IOException;
+
+ public class Main {
+     public static void main(String[] args) {
+         try {
+             FileWriter writer = new FileWriter("poem.txt");
+             writer.write("Roses are red!\n Violets are blue!\n lalala! x2");
+             writer.append("(\n a poem by Monda!)");
+             writer.close();
+         } catch (IOException e) {
+             throw new RuntimeException(e);
+         }
+
+
+     }
+ }
+ */
+
